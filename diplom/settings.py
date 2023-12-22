@@ -97,10 +97,10 @@ WSGI_APPLICATION = 'diplom.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nikshgb$default',
-        'USER': 'nikshgb',
+        'NAME': 'nikolay$default',
+        'USER': 'nikolay',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'nikshgb.mysql.pythonanywhere-services.com',
+        'HOST': 'nikolay.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
